@@ -3,6 +3,10 @@ Some code for modeling returns of a Venture Capital fund.
 
 It allows simulations of a seed fund that makes follow-on rounds to see the distribution of outcomes given different portfolio constructions. Example output:
 
+## Example output
+
+
+```
 starting...
 validating params...
 Parameters
@@ -11,7 +15,7 @@ Parameters
 
 Running portfolio simluation...
 
-# of portfolios with different multiple returns
+Num portfolios with different multiple returns
   0.0x - 3725 (4%)
   1.0x - 38354 (38%)
   2.0x - 43606 (44%)
@@ -19,7 +23,8 @@ Running portfolio simluation...
   4.0x - 1349 (1%)
   5.0x - 55 (0%)
   6.0x - 3 (0%)
-# of portfolios with different multiple returns (to 0.1x)
+
+Num portfolios with different multiple returns (to 0.1x)
   0.2x - 1 (0%) (0%) 
   0.3x - 10 (0%) (0%) 
   0.4x - 47 (0%) (0%) 
@@ -83,3 +88,4 @@ Running portfolio simluation...
   6.3x - 1 (0%) (100%) 
   6.4x - 1 (0%) (100%) 
 done.
+```
